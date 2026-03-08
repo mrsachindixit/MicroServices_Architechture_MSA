@@ -1,6 +1,4 @@
-## Slide 1
-
-Microservices 
+## Microservices 
 
 
 By Sachin Dixit
@@ -31,7 +29,7 @@ What is the definition of above ? and what is the difference ?
 ## 2-Tier Architecture
 
 
-‹#›
+
 
 
 - Client Tier  
@@ -51,11 +49,10 @@ What is the definition of above ? and what is the difference ?
 
 ![](assets/images/slide-3-img.jpg)
 
-
+A tier (not to be confused with layer) refers to the physical separation of an application. On the other hand, a layer refers to the logical separation of an application. 
 ## 3-Tier Architecture
 
 
-‹#›
 
 
 - Presentation tier  
@@ -76,8 +73,6 @@ What is the definition of above ? and what is the difference ?
 ## 3-Tier Architecture Continued..
 
 
-‹#›
-
 
 - Advantages  
   - Scalability – Each tier can scale horizontally  
@@ -96,7 +91,6 @@ What is the definition of above ? and what is the difference ?
 ## 3-Tier Architectures : Monolith Vs Microservices
 
 
-‹#›
 
 
 ![](assets/images/slide-6-img.jpg)
@@ -183,7 +177,6 @@ Credit : https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-
 ## Evolution Of Microservice Architecture  
 
 
-‹#›
 
 
 - Monolith :   
@@ -274,7 +267,7 @@ Ref:https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-style
 ## Key Characteristics of Microservice Architecture
 
 
-‹#›
+
 
 
 - Single Responsibility  
@@ -295,7 +288,7 @@ Ref:https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-style
 ## Microservices Architecture Design Principles
 
 
-‹#›
+
 
 
 - Independent and Autonomous/Self-governing services  
@@ -319,7 +312,7 @@ Ref:https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-style
 ## Microservices Architecture Design Principles - Continued
 
 
-‹#›
+
 
 
 - Failure Isolation/ Failure resilience  
@@ -342,7 +335,7 @@ Ref:https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-style
 ## Multigrained Architecture : Think Big , Start Small , Move Fast
 
 
-‹#›
+
 
 
 It is completely acceptable to have enterprise application contains microservices, miniservices and even macroservices (monolith components)  
