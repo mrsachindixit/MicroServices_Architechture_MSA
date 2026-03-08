@@ -96,29 +96,15 @@ A tier (not to be confused with layer) refers to the physical separation of an a
 ![](assets/images/slide-6-img.jpg)
 
 
-## Slide 7
-
-![](assets/images/slide-7-img.png)
+## Today's Web Architechture
 
 
-![](assets/images/slide-7-img.png)
 
 
 ![](assets/images/slide-7-img.png)
 
 
-![](assets/images/slide-7-img.png)
-
-
-## Slide 8
-
-![](assets/images/slide-8-img.png)
-
-
-![](assets/images/slide-8-img.png)
-
-
-![](assets/images/slide-8-img.png)
+## Web Application Architechture Components
 
 
 ![](assets/images/slide-8-img.png)
@@ -155,9 +141,7 @@ Credit : https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-
 
 
 
-## Slide 11
-
-![](assets/images/slide-11-img.png)
+## Evolution of Dynamic Content under Web Architechture 
 
 
 ![](assets/images/slide-11-img.png)
