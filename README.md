@@ -15,7 +15,7 @@
 - EIP (list them)
 - What is the definition of the above? And what is the difference?
 
-![Enterprise Integration Patterns overview](assets/images/slide-2-img1.png)
+<img src="assets/images/slide-2-img1.png" width="720" alt="Enterprise Integration Patterns overview">
 
 ## 2-Tier Architecture
 
@@ -31,7 +31,7 @@
   - Performance degrades with scale
   - Data integrity issues due to race conditions
 
-![2-Tier Architecture diagram](assets/images/slide-3-img1.jpg)
+<img src="assets/images/slide-3-img1.jpg" width="420" alt="2-Tier Architecture diagram">
 
 ## 3-Tier Architecture
 
@@ -45,7 +45,7 @@
   - Database server.
   - MySQL, MongoDB, SQLite, PostgreSQL
 
-![3-Tier Architecture diagram](assets/images/slide-4-img1.jpg)
+<img src="assets/images/slide-4-img1.jpg" width="640" alt="3-Tier Architecture diagram">
 
 ## 3-Tier Architecture Continued..
 
@@ -63,7 +63,7 @@
 
 ## 3-Tier Architectures: Monolith vs Microservices
 
-![Monolithic Architecture vs Microservices Architecture](assets/images/slide-6-img1.jpg)
+<img src="assets/images/slide-6-img1.jpg" width="720" alt="Monolithic Architecture vs Microservices Architecture">
 
 ## Today's Web Architecture
 
@@ -79,7 +79,7 @@ Cross-cutting goals:
 - Security
 - Extensible
 
-![Web Application Architecture: users, frontend and backend](assets/images/slide-7-img1.png)
+<img src="assets/images/slide-7-img1.png" width="720" alt="Web Application Architecture: users, frontend and backend">
 
 ## Web Application Architecture Components
 
@@ -94,7 +94,7 @@ Frontend:
 - Single Page Applications (SPA)
 - Server Side Rendered Applications (SSR)
 
-![Web application architecture components](assets/images/slide-8-img1.png)
+<img src="assets/images/slide-8-img1.png" width="720" alt="Web application architecture components">
 
 ## N-Tier Era
 
@@ -107,9 +107,9 @@ Frontend:
 
 Credit: https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/n-tier
 
-![N-tier logical layers](assets/images/slide-9-img1.png)
+<img src="assets/images/slide-9-img1.png" width="620" alt="N-tier logical layers">
 
-![N-tier physical deployment on Azure](assets/images/slide-9-img2.png)
+<img src="assets/images/slide-9-img2.png" width="720" alt="N-tier physical deployment on Azure">
 
 ## Monolith
 
@@ -122,7 +122,7 @@ Credit: https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-s
 
 ## Evolution of Dynamic Content Under Web Architecture
 
-![Stateful thick-client vs stateless thin-client service architecture across tiers](assets/images/slide-11-img1.png)
+<img src="assets/images/slide-11-img1.png" width="720" alt="Stateful thick-client vs stateless thin-client service architecture across tiers">
 
 ## Good Design: Good Team
 
@@ -175,7 +175,7 @@ Ref: https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styl
 
 ## Typical Microservices Deployment
 
-![Typical microservices deployment with API gateway and orchestration](assets/images/slide-16-img1.png)
+<img src="assets/images/slide-16-img1.png" width="640" alt="Typical microservices deployment with API gateway and orchestration">
 
 ## Microservices Necessitates
 
@@ -247,7 +247,7 @@ Ref: https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styl
 
 - It is completely acceptable to have an enterprise application that contains microservices, miniservices and even macroservices (monolith components).
 
-![Multigrained architecture: macroservices, miniservices and microservices in an e-commerce application](assets/images/slide-22-img1.jpg)
+<img src="assets/images/slide-22-img1.jpg" width="660" alt="Multigrained architecture: macroservices, miniservices and microservices in an e-commerce application">
 
 ## Cloud Native & 12 Factor & Reactive
 
@@ -256,7 +256,7 @@ Ref: https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styl
 - PaaS, IaaS, FaaS Blah Blah
 - https://www.cncf.io/
 
-![Serverless business benefits: IaaS, CaaS, PaaS, FaaS responsibility layers](assets/images/slide-23-img1.png)
+<img src="assets/images/slide-23-img1.png" width="640" alt="Serverless business benefits: IaaS, CaaS, PaaS, FaaS responsibility layers">
 
 ## Reactive Manifesto
 
@@ -267,7 +267,7 @@ Ref: https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styl
 
 https://www.reactivemanifesto.org/
 
-![Reactive Manifesto: responsive, resilient, elastic, message driven](assets/images/slide-24-img1.png)
+<img src="assets/images/slide-24-img1.png" width="560" alt="Reactive Manifesto: responsive, resilient, elastic, message driven">
 
 ## The Twelve Factors
 
@@ -291,17 +291,17 @@ Refs: https://12factor.net/ and https://github.com/cjudd/15-factor-app-workshop
 
 ## Cloud Journey
 
-![Modernization 15 Factors Spectrum - Containerization and beyond](assets/images/slide-26-img1.png)
+<img src="assets/images/slide-26-img1.png" width="720" alt="Modernization 15 Factors Spectrum - Containerization and beyond">
 
 Credit: https://cloudificationzone.com/
 
 ## Approaching Cloud Native
 
-![CNCF Cloud Native Trail Map](assets/images/slide-27-img1.png)
+<img src="assets/images/slide-27-img1.png" width="520" alt="CNCF Cloud Native Trail Map">
 
 ## Cloud Transformation
 
-![Cloud transformation stages: Waterfall, Agile, Cloud Native, Next](assets/images/slide-28-img1.png)
+<img src="assets/images/slide-28-img1.png" width="560" alt="Cloud transformation stages: Waterfall, Agile, Cloud Native, Next">
 
 - The tools landscape: https://landscape.cncf.io/
 - https://www.cnpatterns.org/patterns-library
@@ -313,7 +313,7 @@ Lightweight, event-based, asynchronous, stateless compute solution that allows y
 
 "Function-as-a-Service"
 
-![Function-as-a-Service providers: Google Cloud Functions, Auth0 Webtask, Alibaba Cloud, AWS Lambda, IBM Cloud Functions, Spotinst Functions, Kubeless, Azure Functions](assets/images/slide-29-img1.png)
+<img src="assets/images/slide-29-img1.png" width="640" alt="Function-as-a-Service providers: Google Cloud Functions, Auth0 Webtask, Alibaba Cloud, AWS Lambda, IBM Cloud Functions, Spotinst Functions, Kubeless, Azure Functions">
 
 ## Approach to MSA
 
@@ -325,7 +325,7 @@ Lightweight, event-based, asynchronous, stateless compute solution that allows y
 
 Credits: Md Kamaruzzaman
 
-![Splitting a layered application vertically by functionality/domains](assets/images/slide-30-img1.png)
+<img src="assets/images/slide-30-img1.png" width="620" alt="Splitting a layered application vertically by functionality/domains">
 
 ## Microservices Performance
 
@@ -348,7 +348,7 @@ Tips:
 
 Credits: Madhuka Udhantha / Dzone
 
-![Design patterns for microservices catalogue](assets/images/slide-32-img1.png)
+<img src="assets/images/slide-32-img1.png" width="620" alt="Design patterns for microservices catalogue">
 
 ## Database per Microservice
 
@@ -358,7 +358,7 @@ Credits: Madhuka Udhantha / Dzone
 
 Credits: Md Kamaruzzaman
 
-![Database per microservice with synchronous and asynchronous communication](assets/images/slide-33-img1.png)
+<img src="assets/images/slide-33-img1.png" width="640" alt="Database per microservice with synchronous and asynchronous communication">
 
 ## Event Sourcing
 
@@ -369,7 +369,7 @@ Credits: Md Kamaruzzaman
 
 Credits: Md Kamaruzzaman
 
-![Event sourcing: events, event store, materialized views and entity state queries](assets/images/slide-34-img1.png)
+<img src="assets/images/slide-34-img1.png" width="700" alt="Event sourcing: events, event store, materialized views and entity state queries">
 
 ## CQRS
 
@@ -378,7 +378,7 @@ Credits: Md Kamaruzzaman
 
 Credits: Microsoft
 
-![CQRS: separate read and write models over a data store](assets/images/slide-35-img1.png)
+<img src="assets/images/slide-35-img1.png" width="540" alt="CQRS: separate read and write models over a data store">
 
 ## Saga
 
@@ -388,9 +388,9 @@ Credits: Microsoft
 
 Credits: Microsoft
 
-![Saga choreography via a message broker](assets/images/slide-36-img1.png)
+<img src="assets/images/slide-36-img1.png" width="560" alt="Saga choreography via a message broker">
 
-![Saga orchestration via an orchestrator](assets/images/slide-36-img2.png)
+<img src="assets/images/slide-36-img2.png" width="560" alt="Saga orchestration via an orchestrator">
 
 ## Backends for Frontends (BFF)
 
@@ -399,7 +399,7 @@ Credits: Microsoft
 
 Credits: Sam Newman
 
-![Backends for Frontends: separate mobile and desktop client BFFs](assets/images/slide-37-img1.png)
+<img src="assets/images/slide-37-img1.png" width="460" alt="Backends for Frontends: separate mobile and desktop client BFFs">
 
 ## API Gateway
 
@@ -409,7 +409,7 @@ Credits: Sam Newman
 
 Credits: Md Kamaruzzaman
 
-![API Gateway fronting microservices with their databases](assets/images/slide-38-img1.png)
+<img src="assets/images/slide-38-img1.png" width="560" alt="API Gateway fronting microservices with their databases">
 
 ## Strangler
 
@@ -419,7 +419,7 @@ Credits: Md Kamaruzzaman
 
 Credits: Microsoft
 
-![Strangler pattern: early migration, later migration, migration complete](assets/images/slide-39-img1.png)
+<img src="assets/images/slide-39-img1.png" width="720" alt="Strangler pattern: early migration, later migration, migration complete">
 
 ## Circuit Breaker
 
@@ -430,9 +430,9 @@ Credits: Microsoft
 
 Credits: Microsoft / Md Kamaruzzaman
 
-![Circuit breaker state machine: closed, open, half-open](assets/images/slide-40-img1.png)
+<img src="assets/images/slide-40-img1.png" width="480" alt="Circuit breaker state machine: closed, open, half-open">
 
-![Circuit breaker closed vs open behaviour](assets/images/slide-40-img2.png)
+<img src="assets/images/slide-40-img2.png" width="640" alt="Circuit breaker closed vs open behaviour">
 
 ## Externalized Configuration
 
@@ -440,7 +440,7 @@ Credits: Microsoft / Md Kamaruzzaman
 
 Credits: Microsoft
 
-![Externalized configuration with an external configuration store](assets/images/slide-41-img1.png)
+<img src="assets/images/slide-41-img1.png" width="620" alt="Externalized configuration with an external configuration store">
 
 ## Consumer-Driven Contract Testing
 
@@ -448,9 +448,9 @@ Credits: Microsoft
 
 Credits: Martin Fowler
 
-![Consumer and provider contract testing across a REST interface](assets/images/slide-42-img2.png)
+<img src="assets/images/slide-42-img2.png" width="260" alt="Consumer and provider contract testing across a REST interface">
 
-![Test pyramid: unit, service and UI tests](assets/images/slide-42-img1.png)
+<img src="assets/images/slide-42-img1.png" width="440" alt="Test pyramid: unit, service and UI tests">
 
 ## Sidecar
 
@@ -459,7 +459,7 @@ Credits: Martin Fowler
 
 Credits: Microsoft
 
-![Sidecar pattern: primary application and sidecar sharing a host](assets/images/slide-43-img1.png)
+<img src="assets/images/slide-43-img1.png" width="620" alt="Sidecar pattern: primary application and sidecar sharing a host">
 
 ## Bulkhead
 
@@ -469,7 +469,7 @@ Credits: Microsoft
 
 Credits: Microsoft
 
-![Bulkhead pattern: isolated connection pools per workload](assets/images/slide-44-img1.png)
+<img src="assets/images/slide-44-img1.png" width="600" alt="Bulkhead pattern: isolated connection pools per workload">
 
 ## Anti-Corruption Layer
 
@@ -479,7 +479,7 @@ Credits: Microsoft
 
 Credits: Microsoft
 
-![Anti-corruption layer between subsystem A microservices and subsystem B](assets/images/slide-45-img1.png)
+<img src="assets/images/slide-45-img1.png" width="720" alt="Anti-corruption layer between subsystem A microservices and subsystem B">
 
 ## Service Registry
 
@@ -489,11 +489,11 @@ Credits: Microsoft
 
 Credits: Sebastian Peyrott / Auth0
 
-![Third-party registration with a service manager](assets/images/slide-46-img1.png)
+<img src="assets/images/slide-46-img1.png" width="700" alt="Third-party registration with a service manager">
 
-![Client-side service discovery](assets/images/slide-46-img2.png)
+<img src="assets/images/slide-46-img2.png" width="520" alt="Client-side service discovery">
 
-![Server-side service discovery](assets/images/slide-46-img3.png)
+<img src="assets/images/slide-46-img3.png" width="640" alt="Server-side service discovery">
 
 ## References
 
