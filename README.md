@@ -4,6 +4,10 @@
 
 ## Overview
 
+<table>
+<tr>
+<td valign="top">
+
 - Services
 - Web Services
 - Interface
@@ -15,9 +19,20 @@
 - EIP (list them)
 - What is the definition of the above? And what is the difference?
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-2-img1.png" width="720" alt="Enterprise Integration Patterns overview">
 
+</td>
+</tr>
+</table>
+
 ## 2-Tier Architecture
+
+<table>
+<tr>
+<td valign="top">
 
 - **Client Tier**
   - The user interface and application programs are run on the client side
@@ -31,9 +46,20 @@
   - Performance degrades with scale
   - Data integrity issues due to race conditions
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-3-img1.jpg" width="420" alt="2-Tier Architecture diagram">
 
+</td>
+</tr>
+</table>
+
 ## 3-Tier Architecture
+
+<table>
+<tr>
+<td valign="top">
 
 - **Presentation tier**
   - Represents the clients.
@@ -45,7 +71,14 @@
   - Database server.
   - MySQL, MongoDB, SQLite, PostgreSQL
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-4-img1.jpg" width="640" alt="3-Tier Architecture diagram">
+
+</td>
+</tr>
+</table>
 
 ## 3-Tier Architecture Continued..
 
@@ -67,6 +100,10 @@
 
 ## Today's Web Architecture
 
+<table>
+<tr>
+<td valign="top">
+
 Cross-cutting goals:
 
 - Scale
@@ -79,9 +116,20 @@ Cross-cutting goals:
 - Security
 - Extensible
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-7-img1.png" width="720" alt="Web Application Architecture: users, frontend and backend">
 
+</td>
+</tr>
+</table>
+
 ## Web Application Architecture Components
+
+<table>
+<tr>
+<td valign="top">
 
 Models of Web Application:
 
@@ -94,9 +142,20 @@ Frontend:
 - Single Page Applications (SPA)
 - Server Side Rendered Applications (SSR)
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-8-img1.png" width="720" alt="Web application architecture components">
 
+</td>
+</tr>
+</table>
+
 ## N-Tier Era
+
+<table>
+<tr>
+<td valign="top">
 
 - Logical Layers
 - Physical Tiers
@@ -107,9 +166,16 @@ Frontend:
 
 Credit: https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/n-tier
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-9-img1.png" width="620" alt="N-tier logical layers">
 
 <img src="assets/images/slide-9-img2.png" width="720" alt="N-tier physical deployment on Azure">
+
+</td>
+</tr>
+</table>
 
 ## Monolith
 
@@ -245,20 +311,46 @@ Ref: https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styl
 
 ## Multigrained Architecture: Think Big, Start Small, Move Fast
 
+<table>
+<tr>
+<td valign="top">
+
 - It is completely acceptable to have an enterprise application that contains microservices, miniservices and even macroservices (monolith components).
+
+</td>
+<td valign="top">
 
 <img src="assets/images/slide-22-img1.jpg" width="660" alt="Multigrained architecture: macroservices, miniservices and microservices in an e-commerce application">
 
+</td>
+</tr>
+</table>
+
 ## Cloud Native & 12 Factor & Reactive
+
+<table>
+<tr>
+<td valign="top">
 
 - Parallel drivers that implied MSA
 - Cloud Native => Loosely defined term for cloud-hosted applications. Might mean containerized, orchestrated, microservices.
 - PaaS, IaaS, FaaS Blah Blah
 - https://www.cncf.io/
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-23-img1.png" width="640" alt="Serverless business benefits: IaaS, CaaS, PaaS, FaaS responsibility layers">
 
+</td>
+</tr>
+</table>
+
 ## Reactive Manifesto
+
+<table>
+<tr>
+<td valign="top">
 
 - Responsive => rapid, consistent, time bound
 - Resilient => replication, containment, isolation and delegation
@@ -267,7 +359,14 @@ Ref: https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styl
 
 https://www.reactivemanifesto.org/
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-24-img1.png" width="560" alt="Reactive Manifesto: responsive, resilient, elastic, message driven">
+
+</td>
+</tr>
+</table>
 
 ## The Twelve Factors
 
@@ -309,13 +408,28 @@ Credit: https://cloudificationzone.com/
 
 ## Serverless
 
+<table>
+<tr>
+<td valign="top">
+
 Lightweight, event-based, asynchronous, stateless compute solution that allows you to create small, single-purpose functions that respond to cloud events without the need to manage a server or a runtime environment.
 
 "Function-as-a-Service"
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-29-img1.png" width="640" alt="Function-as-a-Service providers: Google Cloud Functions, Auth0 Webtask, Alibaba Cloud, AWS Lambda, IBM Cloud Functions, Spotinst Functions, Kubeless, Azure Functions">
 
+</td>
+</tr>
+</table>
+
 ## Approach to MSA
+
+<table>
+<tr>
+<td valign="top">
 
 - Unix pipes are prime inspiration
 - Scale is one unsaid driver for MSA
@@ -325,7 +439,14 @@ Lightweight, event-based, asynchronous, stateless compute solution that allows y
 
 Credits: Md Kamaruzzaman
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-30-img1.png" width="620" alt="Splitting a layered application vertically by functionality/domains">
+
+</td>
+</tr>
+</table>
 
 ## Microservices Performance
 
@@ -344,13 +465,28 @@ Tips:
 
 ## Catalogue
 
+<table>
+<tr>
+<td valign="top">
+
 - Diff lists exist
 
 Credits: Madhuka Udhantha / Dzone
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-32-img1.png" width="620" alt="Design patterns for microservices catalogue">
 
+</td>
+</tr>
+</table>
+
 ## Database per Microservice
+
+<table>
+<tr>
+<td valign="top">
 
 - Separate logical DB
 - Can be different types of DB
@@ -358,9 +494,20 @@ Credits: Madhuka Udhantha / Dzone
 
 Credits: Md Kamaruzzaman
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-33-img1.png" width="640" alt="Database per microservice with synchronous and asynchronous communication">
 
+</td>
+</tr>
+</table>
+
 ## Event Sourcing
+
+<table>
+<tr>
+<td valign="top">
 
 - Emit events as means of communication
 - Event build up
@@ -369,18 +516,40 @@ Credits: Md Kamaruzzaman
 
 Credits: Md Kamaruzzaman
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-34-img1.png" width="700" alt="Event sourcing: events, event store, materialized views and entity state queries">
 
+</td>
+</tr>
+</table>
+
 ## CQRS
+
+<table>
+<tr>
+<td valign="top">
 
 - Read/Write separation via command-level aggregation
 - Search can also be considered
 
 Credits: Microsoft
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-35-img1.png" width="540" alt="CQRS: separate read and write models over a data store">
 
+</td>
+</tr>
+</table>
+
 ## Saga
+
+<table>
+<tr>
+<td valign="top">
 
 - Transactions distributed across services
 - Choreography, Orchestration
@@ -388,20 +557,42 @@ Credits: Microsoft
 
 Credits: Microsoft
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-36-img1.png" width="560" alt="Saga choreography via a message broker">
 
 <img src="assets/images/slide-36-img2.png" width="560" alt="Saga orchestration via an orchestrator">
 
+</td>
+</tr>
+</table>
+
 ## Backends for Frontends (BFF)
+
+<table>
+<tr>
+<td valign="top">
 
 - UI-specific services
 - I find this junk
 
 Credits: Sam Newman
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-37-img1.png" width="460" alt="Backends for Frontends: separate mobile and desktop client BFFs">
 
+</td>
+</tr>
+</table>
+
 ## API Gateway
+
+<table>
+<tr>
+<td valign="top">
 
 - Facade - reverse proxy - router
 - Cross-cutting concerns
@@ -409,9 +600,20 @@ Credits: Sam Newman
 
 Credits: Md Kamaruzzaman
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-38-img1.png" width="560" alt="API Gateway fronting microservices with their databases">
 
+</td>
+</tr>
+</table>
+
 ## Strangler
+
+<table>
+<tr>
+<td valign="top">
 
 - Monolith to MSA strategy
 - Step-by-step migration
@@ -419,9 +621,20 @@ Credits: Md Kamaruzzaman
 
 Credits: Microsoft
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-39-img1.png" width="720" alt="Strangler pattern: early migration, later migration, migration complete">
 
+</td>
+</tr>
+</table>
+
 ## Circuit Breaker
+
+<table>
+<tr>
+<td valign="top">
 
 - Services call cascade
 - Breaker in case of failure
@@ -430,38 +643,82 @@ Credits: Microsoft
 
 Credits: Microsoft / Md Kamaruzzaman
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-40-img1.png" width="480" alt="Circuit breaker state machine: closed, open, half-open">
 
 <img src="assets/images/slide-40-img2.png" width="640" alt="Circuit breaker closed vs open behaviour">
 
+</td>
+</tr>
+</table>
+
 ## Externalized Configuration
+
+<table>
+<tr>
+<td valign="top">
 
 - Imperative from the cloud / pod era
 
 Credits: Microsoft
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-41-img1.png" width="620" alt="Externalized configuration with an external configuration store">
 
+</td>
+</tr>
+</table>
+
 ## Consumer-Driven Contract Testing
+
+<table>
+<tr>
+<td valign="top">
 
 - API consumers write the tests
 
 Credits: Martin Fowler
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-42-img2.png" width="260" alt="Consumer and provider contract testing across a REST interface">
 
 <img src="assets/images/slide-42-img1.png" width="440" alt="Test pyramid: unit, service and UI tests">
 
+</td>
+</tr>
+</table>
+
 ## Sidecar
+
+<table>
+<tr>
+<td valign="top">
 
 - Consequence of k8s-like deployments
 - Co-locate
 
 Credits: Microsoft
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-43-img1.png" width="620" alt="Sidecar pattern: primary application and sidecar sharing a host">
 
+</td>
+</tr>
+</table>
+
 ## Bulkhead
+
+<table>
+<tr>
+<td valign="top">
 
 - Resource-service partitioning
 - Think resource exhaustion and quota
@@ -469,9 +726,20 @@ Credits: Microsoft
 
 Credits: Microsoft
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-44-img1.png" width="600" alt="Bulkhead pattern: isolated connection pools per workload">
 
+</td>
+</tr>
+</table>
+
 ## Anti-Corruption Layer
+
+<table>
+<tr>
+<td valign="top">
 
 - Isolate different subsystems
 - New meets legacy (semantics)
@@ -479,9 +747,20 @@ Credits: Microsoft
 
 Credits: Microsoft
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-45-img1.png" width="720" alt="Anti-corruption layer between subsystem A microservices and subsystem B">
 
+</td>
+</tr>
+</table>
+
 ## Service Registry
+
+<table>
+<tr>
+<td valign="top">
 
 - Central agent for instances
 - Look up to registry before invocation
@@ -489,11 +768,18 @@ Credits: Microsoft
 
 Credits: Sebastian Peyrott / Auth0
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-46-img1.png" width="700" alt="Third-party registration with a service manager">
 
 <img src="assets/images/slide-46-img2.png" width="520" alt="Client-side service discovery">
 
 <img src="assets/images/slide-46-img3.png" width="640" alt="Server-side service discovery">
+
+</td>
+</tr>
+</table>
 
 ## References
 
